@@ -20,9 +20,9 @@ def home():
 def ph1():
     return render_template("ph1.html")
 
-#@app.route("/experiences")
-#def ph2():
-#    return render_template("ph2.html")
+@app.route("/experiences")
+def ph2():
+    return render_template("ph2.html")
 
 #start the server
 if __name__ == "__main__":
